@@ -36,7 +36,7 @@ export default function Sidenav() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="pages/widgets.html" className="nav-link">
+                        <a href="/attandance" className="nav-link">
                             <i className="nav-icon fas fa-fingerprint" />
                             <p>
                                 Attendance Today
@@ -44,7 +44,7 @@ export default function Sidenav() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="pages/widgets.html" className="nav-link">
+                        <a href="/lesson" className="nav-link">
                             <i className="nav-icon fas fa-list" />
                             <p>
                                 Lesson List
@@ -52,7 +52,7 @@ export default function Sidenav() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="pages/widgets.html" className="nav-link">
+                        <a href="/violation" className="nav-link">
                             <i className="nav-icon fas fa-edit" />
                             <p>
                                 Violation
@@ -60,18 +60,10 @@ export default function Sidenav() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="pages/widgets.html" className="nav-link">
+                        <a href="/payment" className="nav-link">
                             <i className="nav-icon fas fa-wallet" />
                             <p>
                                 Payment
-                            </p>
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="pages/widgets.html" className="nav-link">
-                            <i className="nav-icon fas fa-phone-alt" />
-                            <p>
-                                Facility Complain
                             </p>
                         </a>
                     </li>

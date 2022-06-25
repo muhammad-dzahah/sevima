@@ -6,16 +6,13 @@ function Header() {
         {/* Navbar */}
         <nav className="main-header navbar navbar-expand navbar-white navbar-light">
             {/* Left navbar links */}
-            <ul className="navbar-nav d-flex mb-auto">
+            <ul className="navbar-nav d-flex mt-2">
                 <li className="nav-item mt-2">
                     <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
                 </li>
-                <li>
+                <li className="nav-item">
                     <div className="content-header ">
-                        <ol className="breadcrumb float-sm-right">
-                            <li className="breadcrumb-item"><a href="#">Home</a></li>
-                            <li className="breadcrumb-item active">Dashboard</li>
-                        </ol>
+                        <h5>Welcome, Dzahah Saifullah</h5>
                     </div>
                 </li>
             </ul>
