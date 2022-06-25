@@ -3,7 +3,7 @@ import React from 'react'
 function ListTask() {
   return (
     <div>
-        <table class="table table-bordered text-center table-success col-lg-12">
+        <table class="table table-bordered text-center table-info col-lg-12">
             <thead className="table-active">
                 <tr>
                     <th scope="col col-lg-2">No</th>

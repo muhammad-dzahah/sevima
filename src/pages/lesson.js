@@ -23,7 +23,7 @@ export default function lesson() {
                         </div>
                         <div className="col-lg-12 col-6 mt-4">
                             <div className="small-box">
-                                <div className="card bg-success px-4 pt-3">                                    
+                                <div className="card bg-info px-4 pt-3">                                    
                                     <h4 >List Tugas</h4>
                                     <p>June</p>
                                 </div>
