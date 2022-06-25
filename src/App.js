@@ -1,18 +1,14 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Sidenav from "./components/Sidenav";
-import Body from "./components/Body";
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
 
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Sidenav/>
-      <Body/>
-      <Footer/>
-    </div>
-  );
+export default class App extends React.Component{
+  render(){
+    return(
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    )
+  }
 }
-
-export default App;

@@ -14,7 +14,7 @@ function Header() {
                     <div className="content-header ">
                         <ol className="breadcrumb float-sm-right">
                             <li className="breadcrumb-item"><a href="#">Home</a></li>
-                            <li className="breadcrumb-item active">Dashboard v1</li>
+                            <li className="breadcrumb-item active">Dashboard</li>
                         </ol>
                     </div>
                 </li>
